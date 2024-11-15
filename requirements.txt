@@ -1,0 +1,14 @@
+aiohttp
+asyncio
+contractions
+inflect
+nltk
+numpy
+pandas
+plotly
+requests
+streamlit
+wordcloud
+streamlit_folium
+folium
+numpy
