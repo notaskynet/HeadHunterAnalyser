@@ -13,22 +13,18 @@
 **Структура проекта**:
 
 ```markdown
-├── README.md                     # Документация проекта
+├── README.md                     
 ├── app/
 │   ├── Dockerfile                # Конфигурация Docker для приложения
 │   ├── app.py                    # Основное приложение
 │   ├── model/                    # Модели
 │   │   ├── __init__.py           
-│   │   ├── summarize.py          # Модуль для обработки текста
-│   │   └── weights/              # Предобученные модели и токенизаторы
-│   │       ├── rut5/             # Модель RuT5
-│   │       ├── sbert/            # Модель Sentence-BERT
-│   │       └── tokenizer/        # Токенизатор RuT5
+│   │   └── summarize.py          # Модуль для обработки текста
 │   ├── parser/                   # Парсинг данных
-│   │   ├── __init__.py           # Инициализация пакета
+│   │   ├── __init__.py           
 │   │   └── parser.py             # Скрипт для парсинга hh.ru
 │   ├── processing/               # Предобработка данных
-│   │   ├── __init__.py           # Инициализация пакета
+│   │   ├── __init__.py           
 │   │   └── processing.py         # Скрипт для обработки данных
 │   └── requirements.txt          # Зависимости для Python
 └── docker-compose.yml            # Конфигурация Docker Compose
