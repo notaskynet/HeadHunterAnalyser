@@ -1,0 +1,14 @@
+name: job-analyzer
+services:
+  app:
+    build: app/
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app/model/weights/rut5:/app/weights/rut5
+      - ./app/model/weights/sbert:/app/weights/sbert
+      - ./app/model/weights/tokenizer:/app/weights/tokenizer
+      
+volumes:
+  model_weights:
+    external: true

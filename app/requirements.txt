@@ -1,0 +1,16 @@
+aiohttp
+asyncio
+contractions
+inflect
+nltk
+streamlit
+numpy
+pandas
+plotly
+requests
+scikit-learn
+torch
+sentence-transformers
+sentencepiece
+transformers
+protobuf
