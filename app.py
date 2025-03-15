@@ -1,13 +1,13 @@
-from parser.parser import parse_job, get_key_words
-from processing.processing import flatten, merge_entries, process_dataframe
-from model.summarize import summarize
-
 import plotly.express as px
 import streamlit as st
 
 import asyncio
 import pandas as pd
 import numpy as np
+
+from utils.parsing import parse_job, get_key_words
+from utils.processing import flatten, merge_entries, process_dataframe
+from utils.summarization import summarize
 
 
 async def main():
